@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Letter</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="envelope">
+      <div class="lid"></div>
+      <div class="cover1"></div>
+      <div class="cover2"></div>
+      <div class="letter" onclick="takeOut()">
+        <p id="date">June 3rd, 2025</p>
+        <h2 id="greet">Dear Fiora (ono embe),</h2>
+        <p id="text">
+          Trước hết, anh muốn chúc em, chúc anh, chúc hai ta ngày Getting Back Anniversary, 
+          ngày mà anh với em có thể một lần nữa được chung nhịp đập tìm đến nhau. Bình thường 
+          thì anh không có sến súa như vậy đâu, chỉ là vì có hôm em nói em muốn thấy anh sến 
+          một lần nữa, thì hôm nay anh sẽ giải bày một ít tâm sự trong lòng anh đối với em. 
+          Anh hy vọng em sẽ không cảm thấy quá cringe.
+        </p>
+        <p id="text">
+          Anh biết bản thân anh là một người rất nóng nảy, nghiêm khắc, còn em là một người 
+          vô tư vô lo, lúc nào cũng vui vẻ và hết mình vì mọi người, anh không muốn vì anh 
+          mà em lại mất đi sự vui tươi đó trong em, dù chỉ là một khoảnh khắc. Xử Nữ lúc nào 
+          cũng bị ám ảnh bởi “sự hoàn hảo”, anh cũng vậy, cũng chính vì vậy mà khi nhìn lại 
+          bản thân thì sự hoàn hảo đó quá xa vời. Nhưng trong mắt anh, “sự hoàn hảo” lại nằm 
+          trong em, một sự hoàn hảo hoàn toàn khác, không phải những gì anh theo đuổi nhưng 
+          anh lại rất trân quý, một em bé trong em. Em từng nói là bản thân em đã bị tổn thương 
+          trong tâm, anh không biết đó có phải là vì anh hay không nhưng lần này anh muốn được 
+          cùng em chữa lành nó, anh muốn được em mở lòng và được gặp “em bé” trong em. 
+          Anh yêu “em bé” bên trong em, sự hồn nhiên vui tươi mà anh luôn thấy xuất hiện trên 
+          khuôn mặt, nụ cười, và cả tính cách của em. Anh không yêu nó bởi vì đó là thứ anh 
+          không có hay là vì anh muốn được trở nên giống như vậy. Anh yêu em vì em nhắc cho 
+          anh nhớ là bên trong anh cũng có một “em bé” như vậy, một phần tính cách mà anh không 
+          muốn ai khác nhìn thấy, mà chỉ dành cho một mình em.
+        </p>
+        <p id="text">
+          Đối với anh, yêu xa là những gì trước đây anh không dám thử. Khoảng cách địa lý, suy nghĩ tiêu cực, 
+          trái múi giờ, thiếu cảm giác gần gũi,... là những thử thách ai cũng phải chịu đựng khi yêu xa, 
+          và nó càng tệ hơn khi người đó khó thấy được sự tích cực trong mọi vấn đề, như là anh. Nhưng vì 
+          một lý do nào đó, anh lại muốn được cùng em tiếp tục, vì yêu em, anh muốn bản thân mình chịu đựng và 
+          cố gắng làm em cảm thấy được sự hiện diện của anh bên em mỗi khi em cần.
+        </p>
+        <p id="text">
+          Có một câu nói yêu mà anh nhớ mãi, “anh yêu em khắp dải Milky Way, vì để dễ cho em hình dung chứ 
+          anh nghĩ tình yêu của anh sẽ chẳng có giới hạn”. Anh biết để thể hiện tình yêu thì mình có vô vàn 
+          cách, anh vẫn cố để cho em cảm nhận được hết điều đó qua từng ngày, nhưng thực sự anh không thể 
+          lột tả được hết tấm lòng anh mỗi khi anh nói “Anh yêu em”. Cho nên anh cầu nguyện rằng mình sẽ được 
+          gặp nhau trong thời gian tương lai tới và mặc dù anh không thể đảm bảo được chặng đường anh cùng đi 
+          với em là bao xa, nhưng anh luôn muốn từng ngày trôi qua cùng với em sẽ là khoảng thời gian hạnh phúc 
+          nhất của cả em và anh.
+        </p>
+        <div class="bottom-letter">
+          <div class="signing">
+            <h2>Sincerely,</h2>
+            <h2>Bill.</h2>
+          </div>
+          <div class="release" onclick="pineappleGo()">
+            <img src="./images/icons8-pineapple-60.png" alt="pineapple-icon">
+            <p id="press-me">press me!</p>
+          </div>
+        </div>
+      </div>
+      <div class="spawn-point">
+        <!--Pineapple-->
+        <div class="pineapple">
+          <div class="leaf middle"></div>
+          <div class="leaf left"></div>
+          <div class="leaf right"></div>
+          <div class="shadow"></div>
+          <div class="body">
+            <div class="eye left"></div>
+            <div class="eye right"></div>
+            <div class="mouth"></div>
+            <div class="arm left"></div>
+            <div class="arm right"></div>
+            <div class="leg left"></div>
+            <div class="leg right"></div>
+          </div>
+        </div>
+      </div>
+      <div class="heartCheckbox">
+        <input id="heart" type="checkbox" onclick="openLetter()"></input>
+      </div>
+      <div class="end-gap"></div>
+    </div>
+    <!-- Audio -->
+    <audio id="music" src="/audio/cozy--relaxing-music-for-a-peaceful-day.mp3" autoplay></audio>
+    <div class="center-con">
+        <div class="round">
+            <div class="speaker" onclick="mute()">
+                <div id="mute" class="mute"></div>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!--------------->
+    <script src="script.js"></script>
+  </body>
+</html>
